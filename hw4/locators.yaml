@@ -1,0 +1,15 @@
+xpath:
+  username_selector: //*[@id="login"]/div[1]/label/input
+  password_selector: //*[@id="login"]/div[2]/label/input
+  error_selector: //*[@id="app"]/main/div/div/div[2]/h2
+  hello_label: //*[@id="app"]/main/nav/ul/li[3]/a
+
+  contact_link: //*[@id="app"]/main/nav/ul/li[2]/a
+  page_title: //*[@id="app"]/main/div/div/h1
+  contact_name: //*[@id="contact"]/div[1]/label/input
+  contact_email: //*[@id="contact"]/div[2]/label/input
+  contact_content: //*[@id="contact"]/div[3]/label/span/textarea
+  contact_btn: //*[@id="contact"]/div[4]/button
+
+css:
+  btn_selector: button
